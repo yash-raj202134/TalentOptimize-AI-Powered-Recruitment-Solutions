@@ -8,7 +8,7 @@ TalentOptimize aims to revolutionize the talent acquisition process by leveragin
 The project leverages machine learning techniques to predict job placements based on various factors such as academic performance, work experience, specialization, and more. By analyzing historical data of past employees, the system aims to identify patterns and correlations that can predict whether a candidate is likely to be placed or not.
 
 ### Key Features of the Project
-### Data Preprocessing
+#### Data Preprocessing
 
 The project involves extensive data preprocessing to clean and prepare the dataset for analysis. This includes handling missing values, encoding categorical variables, and scaling numerical features.
 
