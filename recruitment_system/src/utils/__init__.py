@@ -1,14 +1,16 @@
 import os
 from box.exceptions import BoxValueError
-
+import sys
+sys.path.append("recruitment_system")
 import yaml
 from ensure import ensure_annotations
 from box import ConfigBox
 from pathlib import Path
 from typing import Any
+import sys
+sys.path.append(".")
+from recruitment_system.src import logger
 
-from recruitment_system.src.talentOptimize import logger
-print(os.getcwd())
 @ensure_annotations
 def read_yaml(path_to_yaml) -> ConfigBox:
     """reads yaml file and returns

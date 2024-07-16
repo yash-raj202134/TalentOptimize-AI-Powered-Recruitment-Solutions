@@ -2,16 +2,19 @@ import os
 import subprocess
 import zipfile
 from pathlib import Path
-from utils.logging import logger
+import sys
+sys.path.append(".")
+from recruitment_system.src import logger
 
 # Import Kaggle API
 from kaggle.api.kaggle_api_extended import KaggleApi  # type: ignore
 
+# kaggle datasets download -d noorsaeed/hr-datasets
 class DataIngestion:
     def __init__(self):
-        self.source_url = "spsayakpaul/arxiv-paper-abstracts"
-        self.local_file_path = "arxiv-paper-abstracts.zip"
-        self.unzip_path = "./dataset"
+        self.source_url = "noorsaeed/hr-datasets"
+        self.local_file_path = "hr-datasets.zip"
+        self.unzip_path = "./recruitment_system/dataset"
 
         self.kaggle_api = KaggleApi()
         self.kaggle_api.authenticate()  # Authenticate with Kaggle using your API key
