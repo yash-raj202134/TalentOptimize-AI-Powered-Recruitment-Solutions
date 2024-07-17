@@ -23,6 +23,15 @@ df = reading_cleaning(df)
 def index():
     return render_template("index.html")
 
+@app.route('/index')
+def home():
+    return render_template("index.html")
+
+@app.route('/job')
+def job():
+    return render_template('job.html')
+
+
 
 if __name__ == "__main__":
     app.run(debug = True)
