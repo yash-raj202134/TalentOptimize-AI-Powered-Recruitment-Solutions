@@ -1,0 +1,29 @@
+recruitment_system
+│
+├── src
+│   ├── constants
+│   │   └── paths.py
+│   ├── utils
+│   │   ├── data_loader.py
+│   │   ├── preprocess.py
+│   │   ├── train.py
+│   │   ├── evaluate.py
+│   │   ├── save.py
+│   │   └── plot.py
+│
+├── models
+│   └── model.pkl
+│   └── scaler.pkl
+│
+├── results
+│   └── confusion_matrix_knn.png
+│   └── confusion_matrix_decision_tree.png
+│   └── confusion_matrix_svm.png
+│   └── confusion_matrix_random_forest.png
+│   └── confusion_matrix_gaussian.png
+│   └── confusion_matrix_logistic_regression.png
+│
+├── dataset
+│   └── Placement_Data_Full_Class.csv
+│
+├── main.py
