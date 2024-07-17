@@ -1,6 +1,6 @@
 # src/utils/evaluate.py
 
-from sklearn.metrics import confusion_matrix, accuracy_score
+from sklearn.metrics import confusion_matrix, accuracy_score, classification_report
 import matplotlib.pyplot as plt
 import seaborn as sns
 import numpy as np
@@ -21,5 +21,6 @@ def evaluate_model(model, X_test, Y_test, model_name, result_path):
     plt.ylabel("True Label")
     plt.savefig(f"{result_path}/confusion_matrix_{model_name}.png")
     # plt.show()
+    report = classification_report(Y_test,Y_pred)
     
-    return accuracy
+    return accuracy, report

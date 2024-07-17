@@ -1,0 +1,90 @@
+Model: knn
+Accuracy: 0.7640449438202247
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.76      0.77      0.76        44
+           1       0.77      0.76      0.76        45
+
+    accuracy                           0.76        89
+   macro avg       0.76      0.76      0.76        89
+weighted avg       0.76      0.76      0.76        89
+
+
+--------------------------------------------------
+
+Model: decision_tree
+Accuracy: 0.8539325842696629
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.90      0.80      0.84        44
+           1       0.82      0.91      0.86        45
+
+    accuracy                           0.85        89
+   macro avg       0.86      0.85      0.85        89
+weighted avg       0.86      0.85      0.85        89
+
+
+--------------------------------------------------
+
+Model: svm
+Accuracy: 0.8651685393258427
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.88      0.84      0.86        44
+           1       0.85      0.89      0.87        45
+
+    accuracy                           0.87        89
+   macro avg       0.87      0.86      0.87        89
+weighted avg       0.87      0.87      0.87        89
+
+
+--------------------------------------------------
+
+Model: random_forest
+Accuracy: 0.9325842696629213
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.93      0.93      0.93        44
+           1       0.93      0.93      0.93        45
+
+    accuracy                           0.93        89
+   macro avg       0.93      0.93      0.93        89
+weighted avg       0.93      0.93      0.93        89
+
+
+--------------------------------------------------
+
+Model: gaussian_nb
+Accuracy: 0.8202247191011236
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.83      0.80      0.81        44
+           1       0.81      0.84      0.83        45
+
+    accuracy                           0.82        89
+   macro avg       0.82      0.82      0.82        89
+weighted avg       0.82      0.82      0.82        89
+
+
+--------------------------------------------------
+
+Model: logistic_regression
+Accuracy: 0.8314606741573034
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.82      0.84      0.83        44
+           1       0.84      0.82      0.83        45
+
+    accuracy                           0.83        89
+   macro avg       0.83      0.83      0.83        89
+weighted avg       0.83      0.83      0.83        89
+
+
+--------------------------------------------------
+
