@@ -3,6 +3,4 @@ pandas
 matplotlib
 seaborn
 scikit-learn
-python-box
-ensure
 flask

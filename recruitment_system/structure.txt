@@ -4,12 +4,12 @@ recruitment_system
 │   ├── constants
 │   │   └── paths.py
 │   ├── utils
-│   │   ├── data_loader.py
-│   │   ├── preprocess.py
-│   │   ├── train.py
-│   │   ├── evaluate.py
-│   │   ├── save.py
-│   │   └── plot.py
+│       ├── data_loader.py
+│       ├── preprocess.py
+│       ├── train.py
+│       ├── evaluate.py
+│       ├── save.py
+│       └── predict.py
 │
 ├── models
 │   └── model.pkl
