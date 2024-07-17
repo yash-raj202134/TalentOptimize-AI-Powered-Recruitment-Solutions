@@ -15,3 +15,14 @@ scaler = pickle.load(open('recruitment_system/models/scaler.pkl','rb'))
 
 df = reading_cleaning(df)
 
+
+
+# routes===================================================================
+
+@app.route('/')
+def index():
+    return render_template("index.html")
+
+
+if __name__ == "__main__":
+    app.run(debug = True)
