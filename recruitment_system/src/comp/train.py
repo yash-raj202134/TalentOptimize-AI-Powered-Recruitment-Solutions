@@ -1,11 +1,11 @@
 # src/utils/train.py
 
-from sklearn.neighbors import KNeighborsClassifier
-from sklearn.tree import DecisionTreeClassifier
-from sklearn.svm import SVC
-from sklearn.ensemble import RandomForestClassifier
-from sklearn.naive_bayes import GaussianNB
-from sklearn.linear_model import LogisticRegression
+from sklearn.neighbors import KNeighborsClassifier # type: ignore
+from sklearn.tree import DecisionTreeClassifier # type: ignore
+from sklearn.svm import SVC # type: ignore
+from sklearn.ensemble import RandomForestClassifier # type: ignore
+from sklearn.naive_bayes import GaussianNB # type: ignore
+from sklearn.linear_model import LogisticRegression # type: ignore
 
 def train_knn(X_train, Y_train):
     knn = KNeighborsClassifier(n_neighbors=3)

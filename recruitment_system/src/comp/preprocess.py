@@ -1,9 +1,9 @@
 # src/utils/preprocess.py
 
-import pandas as pd
-from sklearn.utils import resample
-from sklearn.preprocessing import MinMaxScaler
-from sklearn.model_selection import train_test_split
+import pandas as pd # type: ignore
+from sklearn.utils import resample # type: ignore
+from sklearn.preprocessing import MinMaxScaler # type: ignore
+from sklearn.model_selection import train_test_split # type: ignore
 
 
 def preprocess_data(data):

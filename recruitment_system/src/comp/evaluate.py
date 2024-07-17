@@ -1,8 +1,8 @@
 # src/utils/evaluate.py
 
-from sklearn.metrics import confusion_matrix, accuracy_score, classification_report
-import matplotlib.pyplot as plt
-import seaborn as sns
+from sklearn.metrics import confusion_matrix, accuracy_score, classification_report # type: ignore
+import matplotlib.pyplot as plt # type: ignore
+import seaborn as sns # type: ignore
 import numpy as np
 
 def evaluate_model(model, X_test, Y_test, model_name, result_path):

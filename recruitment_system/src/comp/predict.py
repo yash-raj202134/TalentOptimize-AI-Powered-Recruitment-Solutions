@@ -1,7 +1,7 @@
 # src/utils/predict.py
 
-import pandas as pd
-from sklearn.preprocessing import MinMaxScaler
+import pandas as pd # type: ignore
+from sklearn.preprocessing import MinMaxScaler # type: ignore
 import pickle
 from src.constants.paths import MODEL_PATH, SCALER_PATH
 
