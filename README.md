@@ -24,10 +24,14 @@ The project includes an interactive dashboard that provides insights into employ
 
 A user-friendly web application is developed using Flask, allowing HR professionals to input candidate details and receive instant predictions on job placements. The application provides real-time feedback, making the recruitment process more efficient and data-driven.
 
-##### Website preview
-
+#### Website preview
+Home page:
 ![Home page](static/Web_screenshot/homepage.png)
+Recruitment page:
 ![Recruitment page](static/Web_screenshot/recruitmentpage.png)
+Dashboard:
+![Recruitment page](static/Web_screenshot/dashboard1.png)
+![Recruitment page](static/Web_screenshot/dashboard2.png)
 ### Benefits of Using Machine Learning in Recruitment
 
 #### Improved Efficiency
@@ -59,3 +63,26 @@ Are you ready to revolutionize your recruitment process with machine learning? E
 - Scikit-learn
 - Matplotlib
 - Seaborn
+
+### How to run 
+- Clone the repository:
+```bash
+git clone https://github.com/yash-raj202134/TalentOptimize-AI-Powered-Recruitment-Solutions.git
+```
+
+- Navigate to recruitment_system folder to get the resources.
+```bash
+cd recruitment_system
+```
+- Install the requirements
+```bash
+pip install -r requirements.txt
+```
+- Execute main.py file to download the resources.
+```python
+python main.py
+```
+Now navigate back to the root folder and execute app.py file
+```python
+python app.py
+```
