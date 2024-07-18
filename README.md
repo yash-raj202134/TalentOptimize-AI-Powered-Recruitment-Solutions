@@ -26,8 +26,8 @@ A user-friendly web application is developed using Flask, allowing HR profession
 
 ##### Website preview
 
-![Home page](static\Web_screenshot\homepage.png)
-![Recruitment page](static\Web_screenshot\recruitmentpage.png)
+![Home page](static/Web_screenshot/homepage.png)
+![Recruitment page](static/Web_screenshot/recruitmentpage.png)
 ### Benefits of Using Machine Learning in Recruitment
 
 #### Improved Efficiency
