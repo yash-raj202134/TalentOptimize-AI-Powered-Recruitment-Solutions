@@ -80,5 +80,5 @@ def run():
 
 
 if __name__ == "__main__":
-    # download_datasets()
+    download_datasets()
     run()

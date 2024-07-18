@@ -24,6 +24,10 @@ The project includes an interactive dashboard that provides insights into employ
 
 A user-friendly web application is developed using Flask, allowing HR professionals to input candidate details and receive instant predictions on job placements. The application provides real-time feedback, making the recruitment process more efficient and data-driven.
 
+##### Website preview
+
+![Home page](static\Web_screenshot\homepage.png)
+![Recruitment page](static\Web_screenshot\recruitmentpage.png)
 ### Benefits of Using Machine Learning in Recruitment
 
 #### Improved Efficiency
